@@ -1,2 +1,2 @@
 #!/bin/bash
-./5-listfilesdigitonly . .. /boot
+ls -a -n -l . .. /boot

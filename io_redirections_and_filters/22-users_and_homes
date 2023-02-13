@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d: /etc/passdw
+cut -d":" -f1 /etc/passdw

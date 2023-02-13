@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -E 'c|C'
+grep -e 'c\C'

@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | find -name "root"
+cat /etc/passwd | find -name "root" -print -quit

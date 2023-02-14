@@ -1,2 +1,2 @@
 #!/bin/bash
-cat *.tsv | sort -rk 3 | cut -f 1-2 -d' ' -f2
+cat *.tsv | sort -rk 3 | cut -f1 -d' '

@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -Eo '^[^ ]+'
+cut -d' ' -f1

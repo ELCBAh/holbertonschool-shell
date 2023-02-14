@@ -1,2 +1,2 @@
 #!/bin/bash
-cat *.tsv | tail -n +2 | sort -rk 3 | cut -f1,2 -d$'\t' | head -n 11
+cat *.tsv | tail -n +2 | sort -rk 3 | cut -f1,4 -d$'\t' | head -n 11

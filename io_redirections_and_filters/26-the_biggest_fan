@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -k5 < *.tsv
+sort -k6 < *.tsv

@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -rk 6 < *.tsv | cut -d' ' -f1
+sort -rk 6 < *.tsv | head -n 1 | cut -d' ' -f1

@@ -1,2 +1,2 @@
 #!/bin/bash
-cat *.tsv | tail -n +2 | sort -rk 3 | rev | cut -f8 -d' ' | rev
+cat *.tsv | tail -n +2 | sort -rk 3 | rev | cut -f8 -d'\t' | rev

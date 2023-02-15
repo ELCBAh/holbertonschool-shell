@@ -3,4 +3,4 @@ git add .
 read -p 'ADD COMMENT: ' getCOMMENT
 git commit -m '$getCOMMENT'
 git push
-echo Done
+echo Done.

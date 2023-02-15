@@ -1,2 +1,2 @@
 #!/bin/bash
-export NUM="echo $((1 / 4))"
+export NUM="$((1 / 4))" | echo $NUM

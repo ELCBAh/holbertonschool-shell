@@ -1,7 +1,0 @@
-
-git add .
-echo -e "Comment: "
-read getCOMMENT
-git commit -m '$getCOMMENT'
-git push
-echo Finished.

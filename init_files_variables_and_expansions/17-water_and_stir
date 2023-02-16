@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%d\n' $((8#$(echo $WATER))) | tr 'water' '01234' + 8#$((echo $STIR)) | tr 'stir.' '01234' | tr '01234567' 'bestchol'
+printf '%d\n' $((8#$(echo $WATER | tr 'water' '01234'))) $((8#$(echo $STIR | tr 'stir.' '01234'))) | tr '01234567' 'bestchol'
